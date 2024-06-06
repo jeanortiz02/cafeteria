@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/build/css/app.css">
+    <title>Cafeteria | Sass</title>
+</head>
+<body>
+
+    <header class="header header-nosotros">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="Logo Imagen">
+                </div>
+
+                <nav class="nav-principal">
+                    <a href="index.html">Inicio</a>
+                    <a class="activo" href="nosotros.html">Nosotros</a>
+                    <a href="proceso.html">Proceso</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="galeria.html">Galería</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>Una nueva experiencia cada día</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor contenido-principal">
+        <h2><span>Conoce Más</span> Sobre Nosotros</h2>
+
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <picture>
+                    <source
+                        srcset="build/img/nosotros_sidebar.avif" 
+                        type="image/avif">
+                    <source
+                        srcset="build/img/nosotros_sidebar.webp" 
+                        type="image/webp">
+                    <source
+                        srcset="build/img/nosotros_sidebar.jpg"
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="build/img/nosotros_sidebar.jpg" lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi officiis fugiat, eum doloremque laborum voluptatem, neque fugit, voluptatibus saepe blanditiis error dignissimos cum maiores quos. Quaerat voluptatem dolores veritatis odio.</p>
+
+                <blockquote>Excelente Sabor!</blockquote>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro laborum placeat hic, nisi quisquam dicta ex cupiditate accusamus fugiat libero a obcaecati. Ab repudiandae, modi illo qui delectus pariatur recusandae.</p>
+            </div>
+        </div>
+
+    </main>
+
+    
+
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>Santo Domingo Este</p>
+                <p>Republica Dominicana</p>
+
+            </div>
+
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel: +1 (829) 856-8596</p>
+                <a href="tel:+18099569705">Llamar</a>
+            </div>
+
+            <div class="footer-box horario">
+                <h3>Horario</h3>
+                <p>Lun-Jue: 11:00 - 22:00</p>
+                <p>Vie - Sab: 09:00 - 24:00</p>
+                <p>Domingo: cerrado</p>
+            </div>
+        </div>
+
+        <p class="copyright">Todos los derechos reservados. La Cafetería</p>
+    </footer>
+    
+</body>
+</html>
